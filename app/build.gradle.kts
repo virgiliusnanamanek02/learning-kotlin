@@ -40,6 +40,7 @@ java {
 application {
     // Define the main class for the application.
     mainClass.set("basic.AppKt")
+    mainClass.set("basic.variables.VarKt")
 }
 
 tasks.named<Test>("test") {
