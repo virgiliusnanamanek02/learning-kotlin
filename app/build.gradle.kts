@@ -41,6 +41,7 @@ application {
     // Define the main class for the application.
     mainClass.set("basic.AppKt")
     mainClass.set("basic.variables.VarKt")
+    mainClass.set("basic.arrays.ArrKt")
 }
 
 tasks.named<Test>("test") {
